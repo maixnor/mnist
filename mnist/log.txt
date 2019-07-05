@@ -1,0 +1,47 @@
+machine lerning log - handwritten digit recognition, 2 epochs, 6000 samples training data, 4 layers (1 input layer(flatten), 2 hidden layers(dense), 1 output layer(dense - 10 nodes))
+acc - loss - nodes hlayer1 - nodes hlayer2, act1 - act2 - act3(final) - optimizer (if no optimizer -> adam optimzer)
+0.966 0.1093 128 128 relu relu softmax
+0.9675 0.1094 128 128 crelu crelu softmax
+0.9434 0.191 128 128 sigmoid sigmoid softmax
+0.9554 0.1498 128 128 tanh tanh softmax
+0.968 0.0998 128 128 crelu crelu sigmoid
+0.1171 2.3026 128 128 crelu crelu tanh
+0.0673 2.3026 128 128 crelu crelu log_softmax
+0.9657 0.1146 128 128 crelu crelu softmax
+0.8211 0.5816 128 128 softmax softmax softmax
+0.098 2.3026 128 128 relu relu relu
+0.211 1.6725 128 128 crelu crelu crelu
+0.2417 2.174 128 128 elu elu elu
+0.9569 0.1395 128 128 elu elu softmax
+0.9242 0.2619 128 128 log_softmax elu softmax
+0.9264 0.247 128 128 log_softmax crelu softmax
+0.9693 0.1019 128 128 crelu crelu softmax
+0.9659 0.1089 100 100 crelu crelu sigmoid
+0.969 0.0984 200 100 crelu crelu sigmoid
+0.9668 0.1087 100 200 crelu crelu sigmoid
+0.9698 0.0988 150 200 crelu crelu sigmoid
+0.9652 0.1129 200 200 crelu crelu sigmoid
+0.6047 0.793 128 128 crelu softmax sigmoid
+0.9704 0.1056 128 128 crelu elu sigmoid
+0.9578 0.1301 128 128 elu crelu sigmoid
+0.9676 0.1029 128 128 crelu elu sigmoid
+0.9693 0.1023 400 400 crelu elu sigmoid
+0.967 0.1103 400 400 crelu elu softmax
+0.9677 0.1011 128 128 crelu leaky_relu softmax
+0.9696 0.104 128 128 crelu leaky_relu sigmoid
+0.9641 0.1206 128 128 leaky_relu leaky_relu sigmoid
+0.9704 0.0968 128 128 crelu elu sigmoid
+0.9679 0.1027 128 128 crelu elu sigmoid
+0.97 0.1024 128 128 crelu elu sigmoid
+0.9538 0.155 128 128 crelu elu sigmoid nadam
+0.9064 0.3357 128 128 crelu elu sigmoid sgd
+0.9682 0.1036 128 128 crelu elu sigmoid adamax
+0.9646 0.1152 128 128 crelu elu sigmoid adagrad
+0.9699 0.096 128 128 crelu elu sigmoid adadelta
+0.9669 0.1106 128 128 crelu elu sigmoid rmsprop
+0.9687 0.0999 128 128 crelu elu sigmoid adadelta
+0.9615 0.1221 128 128 crelu elu sigmoid adam
+0.9561 0.1495 128 128 crelu elu sigmoid nadam
+0.9679 0.1037 128 128 crelu elu sigmoid adam
+0.9695 0.0993 128 128 crelu elu sigmoid adam
+0.9655 0.1188 128 128 crelu elu sigmoid adam

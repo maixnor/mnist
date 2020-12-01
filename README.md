@@ -1,8 +1,13 @@
-# mnist
-mnist dataset - handwritten digit recognition using tensorflow and keras
+# Welcome
+Here I tried myself at hindwritten digit recognition 
+using TensorFlow and Keras and the mnist dataset
 
-changes in given input fields can be made to influence the scripts performance and accuracy
+## Dependencies
+* Python 3.7
+* TensorFlow
+* Numpy
+* MatPlotLib
 
-dependencies: tensorflow, numpy, matplotplib.pyplot, sys
-
-add -i when running from console to activate manual data validation
+## Usage
+run hwdr.py to train model
+adding -i when executing enters interactive mode
